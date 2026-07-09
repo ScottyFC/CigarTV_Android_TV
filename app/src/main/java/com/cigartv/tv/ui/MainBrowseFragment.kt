@@ -27,7 +27,7 @@ class MainBrowseFragment : BrowseSupportFragment() {
         title = getString(R.string.browse_title)
         headersState = HEADERS_DISABLED          // single grid, no side headers
         isHeadersTransitionOnBackEnabled = false
-        brandColor = resources.getColor(R.color.char, null)
+        brandColor = resources.getColor(R.color.charcoal, null)
         searchAffordanceColor = resources.getColor(R.color.ember, null)
 
         onItemViewClickedListener = OnItemViewClickedListener { _, item, _, _ ->

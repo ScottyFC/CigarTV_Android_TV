@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.cigartv.tv.app-mergeDebugResources-32:/layout/item_season_dropdown.xml",
+        "source": "com.cigartv.tv.app-main-35:/layout/item_season_dropdown.xml"
+    },
+    {
+        "merged": "com.cigartv.tv.app-mergeDebugResources-32:/layout/item_episode.xml",
+        "source": "com.cigartv.tv.app-main-35:/layout/item_episode.xml"
+    },
+    {
+        "merged": "com.cigartv.tv.app-mergeDebugResources-32:/layout/activity_playback.xml",
+        "source": "com.cigartv.tv.app-main-35:/layout/activity_playback.xml"
+    },
+    {
+        "merged": "com.cigartv.tv.app-mergeDebugResources-32:/layout/activity_series_detail.xml",
+        "source": "com.cigartv.tv.app-main-35:/layout/activity_series_detail.xml"
+    },
+    {
+        "merged": "com.cigartv.tv.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.cigartv.tv.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cigartv.tv.app-mergeDebugResources-32:/layout/item_season_spinner.xml",
+        "source": "com.cigartv.tv.app-main-35:/layout/item_season_spinner.xml"
+    }
+]

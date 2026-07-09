@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="charcoal">#0D0C0B</color>
+    <color name="ember">#F3D389</color>
+    <color name="ember_light">#F8E2A8</color>
+    <color name="highlight_25">#40F3D389</color>
+    <color name="ink">#070706</color>
+    <color name="leather_deep">#2E1B0F</color>
+    <color name="paper">#FFFFFFFF</color>
+    <color name="scrim">#CC0D0C0B</color>
+    <color name="smoke_100">#E6E4E1</color>
+    <color name="smoke_300">#ADA8A1</color>
+    <color name="smoke_700">#3A3633</color>
+    <color name="smoke_800">#252220</color>
+    <string name="app_name">CigarTV</string>
+    <string name="browse_shows">Browse Our Shows</string>
+    <string name="browse_title">Originals</string>
+    <string name="new_episodes">New Episodes Each Week !</string>
+    <string name="now_playing">NOW</string>
+    <string name="up_next">NEXT</string>
+    <string name="watch_live">Watch CigarTV Live</string>
+    <style name="Theme.CigarTV" parent="Theme.Leanback">
+        <item name="android:colorPrimary">@color/ember</item>
+        <item name="android:colorAccent">@color/ember</item>
+        <item name="android:windowBackground">@color/charcoal</item>
+    </style>
+    <style name="Theme.CigarTV.Browse" parent="Theme.CigarTV">
+        <item name="android:windowBackground">@color/charcoal</item>
+    </style>
+</resources>

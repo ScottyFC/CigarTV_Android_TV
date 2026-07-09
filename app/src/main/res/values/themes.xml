@@ -5,11 +5,11 @@
     <style name="Theme.CigarTV" parent="Theme.Leanback">
         <item name="android:colorPrimary">@color/ember</item>
         <item name="android:colorAccent">@color/ember</item>
-        <item name="android:windowBackground">@color/char</item>
+        <item name="android:windowBackground">@color/charcoal</item>
     </style>
 
     <!-- Browse fragment branding -->
     <style name="Theme.CigarTV.Browse" parent="Theme.CigarTV">
-        <item name="android:windowBackground">@color/char</item>
+        <item name="android:windowBackground">@color/charcoal</item>
     </style>
 </resources>

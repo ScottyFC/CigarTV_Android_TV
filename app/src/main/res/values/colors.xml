@@ -3,7 +3,7 @@
     <!-- Brand palette (matches the Roku HumidorTheme). -->
     <color name="ember">#F3D389</color>        <!-- accent / highlight -->
     <color name="ember_light">#F8E2A8</color>
-    <color name="char">#0D0C0B</color>          <!-- page background -->
+    <color name="charcoal">#0D0C0B</color>          <!-- page background -->
     <color name="ink">#070706</color>
     <color name="paper">#FFFFFFFF</color>       <!-- primary text -->
     <color name="leather_deep">#2E1B0F</color>

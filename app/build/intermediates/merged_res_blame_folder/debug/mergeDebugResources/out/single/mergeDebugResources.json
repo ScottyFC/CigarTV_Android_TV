@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/drawable_app_banner.png.flat",
+        "source": "com.cigartv.tv.app-main-35:/drawable/app_banner.png"
+    },
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/font_poppins_bold.ttf.flat",
+        "source": "com.cigartv.tv.app-main-35:/font/poppins_bold.ttf"
+    },
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/layout_activity_main.xml.flat",
+        "source": "com.cigartv.tv.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/font_poppins_extrabold.ttf.flat",
+        "source": "com.cigartv.tv.app-main-35:/font/poppins_extrabold.ttf"
+    },
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/font_poppins_regular.ttf.flat",
+        "source": "com.cigartv.tv.app-main-35:/font/poppins_regular.ttf"
+    },
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.cigartv.tv.app-main-35:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/layout_item_episode.xml.flat",
+        "source": "com.cigartv.tv.app-main-35:/layout/item_episode.xml"
+    },
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/font_poppins_medium.ttf.flat",
+        "source": "com.cigartv.tv.app-main-35:/font/poppins_medium.ttf"
+    },
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/layout_item_season_spinner.xml.flat",
+        "source": "com.cigartv.tv.app-main-35:/layout/item_season_spinner.xml"
+    },
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/drawable_card_placeholder.xml.flat",
+        "source": "com.cigartv.tv.app-main-35:/drawable/card_placeholder.xml"
+    },
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/layout_activity_playback.xml.flat",
+        "source": "com.cigartv.tv.app-main-35:/layout/activity_playback.xml"
+    },
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/layout_item_season_dropdown.xml.flat",
+        "source": "com.cigartv.tv.app-main-35:/layout/item_season_dropdown.xml"
+    },
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/layout_activity_series_detail.xml.flat",
+        "source": "com.cigartv.tv.app-main-35:/layout/activity_series_detail.xml"
+    },
+    {
+        "merged": "com.cigartv.tv.app-debug-33:/font_poppins_semibold.ttf.flat",
+        "source": "com.cigartv.tv.app-main-35:/font/poppins_semibold.ttf"
+    }
+]
