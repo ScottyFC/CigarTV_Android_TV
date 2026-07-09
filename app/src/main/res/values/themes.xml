@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Leanback theme gives us the TV browse/details fragments and D-pad
+         focus handling for free. -->
+    <style name="Theme.CigarTV" parent="Theme.Leanback">
+        <item name="android:colorPrimary">@color/ember</item>
+        <item name="android:colorAccent">@color/ember</item>
+        <item name="android:windowBackground">@color/char</item>
+    </style>
+
+    <!-- Browse fragment branding -->
+    <style name="Theme.CigarTV.Browse" parent="Theme.CigarTV">
+        <item name="android:windowBackground">@color/char</item>
+    </style>
+</resources>

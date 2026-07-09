@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand palette (matches the Roku HumidorTheme). -->
+    <color name="ember">#F3D389</color>        <!-- accent / highlight -->
+    <color name="ember_light">#F8E2A8</color>
+    <color name="char">#0D0C0B</color>          <!-- page background -->
+    <color name="ink">#070706</color>
+    <color name="paper">#FFFFFFFF</color>       <!-- primary text -->
+    <color name="leather_deep">#2E1B0F</color>
+    <color name="smoke_100">#E6E4E1</color>
+    <color name="smoke_300">#ADA8A1</color>
+    <color name="smoke_700">#3A3633</color>
+    <color name="smoke_800">#252220</color>
+
+    <color name="scrim">#CC0D0C0B</color>
+    <color name="highlight_25">#40F3D389</color> <!-- 25% ember focus fill -->
+</resources>

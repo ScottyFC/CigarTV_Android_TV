@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CigarTV</string>
+    <string name="browse_title">Originals</string>
+    <string name="watch_live">Watch CigarTV Live</string>
+    <string name="browse_shows">Browse Our Shows</string>
+    <string name="now_playing">NOW</string>
+    <string name="up_next">NEXT</string>
+    <string name="new_episodes">New Episodes Each Week !</string>
+</resources>
