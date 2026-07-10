@@ -2,6 +2,8 @@ package com.cigartv.tv.ui
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
+import android.view.View
 import androidx.leanback.app.BrowseSupportFragment
 import androidx.leanback.widget.ArrayObjectAdapter
 import androidx.leanback.widget.HeaderItem
@@ -15,17 +17,21 @@ import com.cigartv.tv.model.Series
 import kotlinx.coroutines.launch
 
 /**
- * The "Originals" browse screen. Uses Leanback's BrowseSupportFragment, which gives
- * D-pad navigation, focus scaling, and the row/grid layout out of the box. Series
- * render as branded key-art cards; clicking one opens the episode guide.
+ * The "Originals" browse screen (Leanback BrowseSupportFragment).
+ *
+ * Setup is done in onViewCreated (onActivityCreated is deprecated and its timing is
+ * unreliable in current Fragment versions). Catalog loading logs its result and any
+ * exception so an empty grid is diagnosable rather than silent.
  */
 class MainBrowseFragment : BrowseSupportFragment() {
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+    companion object { private const val TAG = "CigarTV" }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
         title = getString(R.string.browse_title)
-        headersState = HEADERS_DISABLED          // single grid, no side headers
+        headersState = HEADERS_DISABLED
         isHeadersTransitionOnBackEnabled = false
         brandColor = resources.getColor(R.color.charcoal, null)
         searchAffordanceColor = resources.getColor(R.color.ember, null)
@@ -44,13 +50,24 @@ class MainBrowseFragment : BrowseSupportFragment() {
     private fun loadCatalog() {
         val repo = CatalogRepository(requireContext())
         lifecycleScope.launch {
-            val catalog = repo.loadCatalog()
-            val rowsAdapter = ArrayObjectAdapter(ListRowPresenter())
-            val cardAdapter = ArrayObjectAdapter(SeriesCardPresenter())
-            catalog.series.forEach { cardAdapter.add(it) }
-            val header = HeaderItem(0, getString(R.string.browse_title))
-            rowsAdapter.add(ListRow(header, cardAdapter))
-            adapter = rowsAdapter
+            try {
+                val catalog = repo.loadCatalog()
+                Log.d(TAG, "Catalog loaded: ${catalog.series.size} series")
+
+                val rowsAdapter = ArrayObjectAdapter(ListRowPresenter())
+                val cardAdapter = ArrayObjectAdapter(SeriesCardPresenter())
+                catalog.series.forEach { cardAdapter.add(it) }
+
+                val header = HeaderItem(0, getString(R.string.browse_title))
+                rowsAdapter.add(ListRow(header, cardAdapter))
+                adapter = rowsAdapter
+
+                if (catalog.series.isEmpty()) {
+                    Log.e(TAG, "Catalog parsed but series list is EMPTY")
+                }
+            } catch (e: Exception) {
+                Log.e(TAG, "Catalog load failed", e)
+            }
         }
     }
 }

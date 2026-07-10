@@ -27,26 +27,26 @@
 19-->/Users/ScottJeffery/Desktop/CigarTV_Android_TV/app/src/main/AndroidManifest.xml:12:9-32
 20
 21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-21-->[androidx.media3:media3-common:1.4.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/84a442d17c0d20c350c326a410bde761/transformed/media3-common-1.4.1/AndroidManifest.xml:22:5-79
-21-->[androidx.media3:media3-common:1.4.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/84a442d17c0d20c350c326a410bde761/transformed/media3-common-1.4.1/AndroidManifest.xml:22:22-76
+21-->[androidx.media3:media3-common:1.4.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/46c086570e1dcdeeef67d7415a078d17/transformed/media3-common-1.4.1/AndroidManifest.xml:22:5-79
+21-->[androidx.media3:media3-common:1.4.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/46c086570e1dcdeeef67d7415a078d17/transformed/media3-common-1.4.1/AndroidManifest.xml:22:22-76
 22
 23    <permission
-23-->[androidx.core:core:1.13.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/72806cf59c5bef05687ce5dcfc44038b/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+23-->[androidx.core:core:1.13.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/9a0a5cdc72f4bfca0e89cd1d0cebf0e0/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 24        android:name="com.cigartv.tv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-24-->[androidx.core:core:1.13.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/72806cf59c5bef05687ce5dcfc44038b/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+24-->[androidx.core:core:1.13.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/9a0a5cdc72f4bfca0e89cd1d0cebf0e0/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 25        android:protectionLevel="signature" />
-25-->[androidx.core:core:1.13.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/72806cf59c5bef05687ce5dcfc44038b/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+25-->[androidx.core:core:1.13.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/9a0a5cdc72f4bfca0e89cd1d0cebf0e0/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 26
 27    <uses-permission android:name="com.cigartv.tv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-27-->[androidx.core:core:1.13.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/72806cf59c5bef05687ce5dcfc44038b/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
-27-->[androidx.core:core:1.13.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/72806cf59c5bef05687ce5dcfc44038b/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+27-->[androidx.core:core:1.13.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/9a0a5cdc72f4bfca0e89cd1d0cebf0e0/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.13.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/9a0a5cdc72f4bfca0e89cd1d0cebf0e0/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 28
 29    <application
 29-->/Users/ScottJeffery/Desktop/CigarTV_Android_TV/app/src/main/AndroidManifest.xml:14:5-43:19
 30        android:allowBackup="true"
 30-->/Users/ScottJeffery/Desktop/CigarTV_Android_TV/app/src/main/AndroidManifest.xml:15:9-35
 31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-31-->[androidx.core:core:1.13.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/72806cf59c5bef05687ce5dcfc44038b/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+31-->[androidx.core:core:1.13.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/9a0a5cdc72f4bfca0e89cd1d0cebf0e0/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 32        android:banner="@drawable/app_banner"
 32-->/Users/ScottJeffery/Desktop/CigarTV_Android_TV/app/src/main/AndroidManifest.xml:16:9-46
 33        android:debuggable="true"
@@ -99,68 +99,68 @@
 59-->/Users/ScottJeffery/Desktop/CigarTV_Android_TV/app/src/main/AndroidManifest.xml:40:13-50
 60
 61        <provider
-61-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/d4058647a9fd3fe2d1edafa02cbfb220/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+61-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/5e63486d37930b894d853cdd2b93e933/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 62            android:name="androidx.startup.InitializationProvider"
-62-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/d4058647a9fd3fe2d1edafa02cbfb220/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+62-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/5e63486d37930b894d853cdd2b93e933/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
 63            android:authorities="com.cigartv.tv.androidx-startup"
-63-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/d4058647a9fd3fe2d1edafa02cbfb220/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+63-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/5e63486d37930b894d853cdd2b93e933/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
 64            android:exported="false" >
-64-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/d4058647a9fd3fe2d1edafa02cbfb220/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+64-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/5e63486d37930b894d853cdd2b93e933/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
 65            <meta-data
-65-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/d4058647a9fd3fe2d1edafa02cbfb220/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+65-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/5e63486d37930b894d853cdd2b93e933/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
 66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-66-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/d4058647a9fd3fe2d1edafa02cbfb220/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+66-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/5e63486d37930b894d853cdd2b93e933/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
 67                android:value="androidx.startup" />
-67-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/d4058647a9fd3fe2d1edafa02cbfb220/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+67-->[androidx.emoji2:emoji2:1.3.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/5e63486d37930b894d853cdd2b93e933/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
 68            <meta-data
-68-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f3e91408fef210524fc51c24811479fb/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+68-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f8526bfa5f67b21bc6f20cfa2dc4d734/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
 69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-69-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f3e91408fef210524fc51c24811479fb/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+69-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f8526bfa5f67b21bc6f20cfa2dc4d734/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
 70                android:value="androidx.startup" />
-70-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f3e91408fef210524fc51c24811479fb/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+70-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f8526bfa5f67b21bc6f20cfa2dc4d734/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
 71            <meta-data
-71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
 72                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-72-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
 73                android:value="androidx.startup" />
-73-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
 74        </provider>
 75
 76        <receiver
-76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
 77            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
 78            android:directBootAware="false"
-78-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
 79            android:enabled="true"
-79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
 80            android:exported="true"
-80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
 81            android:permission="android.permission.DUMP" >
-81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
 82            <intent-filter>
-82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
 83                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
-83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
 84            </intent-filter>
 85            <intent-filter>
-85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
 86                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
-86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
 87            </intent-filter>
 88            <intent-filter>
-88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
 89                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
-89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
 90            </intent-filter>
 91            <intent-filter>
-91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
 92                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
-92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/a53c11aafe22b07933f5c90895d9d162/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ScottJeffery/.gradle/caches/8.14.5/transforms/f6ff11498a093ba17c89e7bf861e5a78/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
 93            </intent-filter>
 94        </receiver>
 95    </application>

@@ -8,9 +8,9 @@ import com.cigartv.tv.R
 import com.cigartv.tv.model.Series
 
 /**
- * Renders a Series as a wide 16:9 card using its branded key art. Leanback handles
- * D-pad focus; we add the ember focus frame + a subtle scale via the card's own
- * selection state, matching the Roku ShowCard treatment.
+ * Renders a Series as a wide 16:9 card using its branded key art. Leanback's
+ * ImageCardView handles D-pad focus scaling and the selected-state highlight, so we
+ * keep this stock (no fragile subclassing) to minimize failure surface.
  */
 class SeriesCardPresenter : Presenter() {
 
@@ -20,25 +20,11 @@ class SeriesCardPresenter : Presenter() {
     }
 
     override fun onCreateViewHolder(parent: ViewGroup): ViewHolder {
-        val cardView = object : ImageCardView(parent.context) {
-            override fun setSelected(selected: Boolean) {
-                findViewById<ViewGroup>(androidx.leanback.R.id.info_field)?.visibility =
-                    if (selected) android.view.View.VISIBLE else android.view.View.GONE
-                updateBackground(selected)
-                super.setSelected(selected)
-            }
-
-            fun updateBackground(selected: Boolean) {
-                val res = resources
-                setInfoAreaBackgroundColor(
-                    if (selected) res.getColor(R.color.leather_deep, null)
-                    else res.getColor(R.color.smoke_800, null)
-                )
-            }
+        val cardView = ImageCardView(parent.context).apply {
+            isFocusable = true
+            isFocusableInTouchMode = true
+            setMainImageDimensions(CARD_W, CARD_H)
         }
-        cardView.isFocusable = true
-        cardView.isFocusableInTouchMode = true
-        cardView.setMainImageDimensions(CARD_W, CARD_H)
         return ViewHolder(cardView)
     }
 
@@ -47,12 +33,14 @@ class SeriesCardPresenter : Presenter() {
         val card = viewHolder.view as ImageCardView
         card.titleText = series.title
         card.contentText = series.category()
+
         val art = series.thumbnailUrl.ifEmpty {
             series.episodes.firstOrNull()?.thumbnailUrl ?: ""
         }
-        card.mainImageView.load(art) {
+        card.mainImageView?.load(art) {
             crossfade(true)
             placeholder(R.drawable.card_placeholder)
+            error(R.drawable.card_placeholder)
         }
     }
 
@@ -61,7 +49,7 @@ class SeriesCardPresenter : Presenter() {
     }
 }
 
-/** Category label derived from genres/rating, mirroring CategoryForSeries on Roku. */
+/** Category label derived from the series key, mirroring CategoryForSeries on Roku. */
 fun Series.category(): String {
     val key = seriesKey.uppercase()
     return when {

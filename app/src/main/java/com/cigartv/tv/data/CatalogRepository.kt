@@ -1,6 +1,7 @@
 package com.cigartv.tv.data
 
 import android.content.Context
+import android.util.Log
 import com.cigartv.tv.model.Catalog
 import com.google.gson.Gson
 import kotlinx.coroutines.Dispatchers
@@ -9,15 +10,14 @@ import kotlinx.coroutines.withContext
 /**
  * Single source of truth for the VOD catalog.
  *
- * Test mode (FreecastConfig.enabled == false): loads the bundled
- * assets/catalog.json - the same file the Roku app ships, generated from the
- * production episode CSV. Fully functional offline for UI/UX testing.
+ * Test mode (FreecastConfig.enabled == false): loads bundled assets/catalog.json.
+ * Live mode: freecast API chain (stubbed pending confirmed response shapes + token).
  *
- * Live mode (enabled + apiKey): fetches the catalog from the freecast API
- * (shows -> seasons -> episodes). Left as a clearly-marked TODO because the
- * show/episodes JSON response shapes aren't confirmed yet - the streams shape is.
+ * Logs the outcome (series count) and any exception so an empty grid is diagnosable.
  */
 class CatalogRepository(private val context: Context) {
+
+    companion object { private const val TAG = "CigarTV" }
 
     private val gson = Gson()
 
@@ -34,21 +34,20 @@ class CatalogRepository(private val context: Context) {
             val json = context.assets.open("catalog.json")
                 .bufferedReader()
                 .use { it.readText() }
-            gson.fromJson(json, Catalog::class.java) ?: Catalog()
+            Log.d(TAG, "catalog.json read: ${json.length} chars")
+            val catalog = gson.fromJson(json, Catalog::class.java)
+            if (catalog == null) {
+                Log.e(TAG, "Gson returned null for catalog.json")
+                Catalog()
+            } else {
+                Log.d(TAG, "Parsed ${catalog.series.size} series")
+                catalog
+            }
         } catch (e: Exception) {
+            Log.e(TAG, "Failed to load bundled catalog", e)
             Catalog()
         }
     }
 
-    /**
-     * TODO(plug-in-at-test): implement the freecast catalog chain once the show and
-     * episodes endpoint JSON shapes are confirmed and a token is available:
-     *   1. for each show slug -> GET FreecastConfig.showUrl(slug)  => season ids
-     *   2. for each season   -> GET FreecastConfig.episodesUrl(...)  => episodes
-     * Assemble into the same Catalog/Series/Episode model. Falls back to bundled
-     * for now so the app always has content.
-     */
-    private fun loadFromApi(): Catalog {
-        return loadBundled()
-    }
+    private fun loadFromApi(): Catalog = loadBundled()
 }
